@@ -295,7 +295,7 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
                                 .setSource(ARActivity.this, Uri.parse(
                                                 poi_uri)
                                         , RenderableSource.SourceType.GLTF2)
-                                .setScale(.2f)
+                                .setScale(.3f)
                                 .build())
                 .setRegistryId(poi_uri)
                 .build()
