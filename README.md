@@ -33,11 +33,11 @@ Route lines draw between different LatLng in AR World
 ### Add the required permissions and metadata of ArCore Api in Manifest file
 ### Enable ViewBinding in buildfeatures in Build Gradle file
 
-### Get user location
+## Get user location
 Using the code below, retrieve & update the current user location
 
 ```
- private LatLng currentLatLng =
+private LatLng currentLatLng =
             new LatLng(0, 0);
             
 private LocationManager locationManager;
@@ -56,12 +56,88 @@ locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
                 // try with a fixed current latlng on which you are currently placed.
 
                 currentLatLng = new LatLng(location.getLatitude(), location.getLatitude());
-                binding.instrText.setText("Place your camera slightly next to your foot and tap on the floor shadow to begin!");
+                binding.instrText.setText("Place your camera slightly next to your foot and tap on the 
+                floor shadow to begin!");
 
 
             }
         });
 ```
 
+## Get user yaw or the rotation
+Using the code below, retrieve the device yaw or the azimuth
+
+```
+private float I[] = null; //for magnetic rotational data
+private float accels[] = new float[3];
+private float mags[] = new float[3];
+private float[] values = new float[3];
+private float yaw;
+private float pitch;
+private float roll;
+private SensorManager sensorManager;
+private Sensor sensor;
+    
+//sensor manager & sensor required to calculate yaw
+sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
+```
+
+Inside OnResume() :
+
+```
+  Sensor accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        if (accelerometer != null) {
+            sensorManager.registerListener(this, accelerometer,
+                    SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+        }
+        Sensor magneticField = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+        if (magneticField != null) {
+            sensorManager.registerListener(this, magneticField,
+                    SensorManager.SENSOR_DELAY_NORMAL, SensorManager.SENSOR_DELAY_UI);
+        }
+        
+```        
+
+Now, implement the SensorEventListener in activity class and add these functions
+
+```
+@Override
+    public void onSensorChanged(SensorEvent sensorEvent) {
+        switch (sensorEvent.sensor.getType())
+        {
+            case Sensor.TYPE_MAGNETIC_FIELD:
+                mags = sensorEvent.values.clone();
+                break;
+            case Sensor.TYPE_ACCELEROMETER:
+                accels = sensorEvent.values.clone();
+                break;
+        }
+
+        if (mags != null && accels != null) {
+            Rot = new float[9];
+            I= new float[9];
+            SensorManager.getRotationMatrix(Rot, I, accels, mags);
+
+            // Correct if screen is in Landscape
+            float[] outR = new float[9];
+            SensorManager.remapCoordinateSystem(Rot, SensorManager.AXIS_X,SensorManager.AXIS_Z, outR);
+            SensorManager.getOrientation(outR, values);
+
+            // here we calculated the final yaw(azimuth), roll & pitch of the device.
+            // multiplied by a global standard value to get accurate results
+
+            // this is the yaw or the azimuth we need
+            yaw = values[0] * 57.2957795f;
+            pitch =values[1] * 57.2957795f;
+            roll = values[2] * 57.2957795f;
+
+            //retrigger the loop when things are repopulated
+            mags = null;
+            accels = null;
+        }
+    }
+
+```
 
 
