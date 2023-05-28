@@ -11,8 +11,11 @@ to our AnchorNode in AR World.
 This solution is pretty accurate as it doesnt rely on any external system and just requires user location & yaw. But, keep in mind that if the location LatLng & yaw of user is incorrect or inaccurate, then this may affect the resulted coordinates.
 
 # Example
-Anchor placed in AR World using LatLng
+
 ![Anchor placed in AR World using LatLng](https://github.com/bhaskarblur/ARCore-Navigation-Anchors-using-LatLng-in-AR-World---Android/blob/316265830063214b58c44a39c44988d7aa1859e5/poi.jpg)
 
-Route lines draw between different LatLng in AR World
+Anchor placed in AR World using LatLng
+
 ![Route lines draw between different LatLng in AR World](https://github.com/bhaskarblur/ARCore-Navigation-Anchors-using-LatLng-in-AR-World---Android/blob/316265830063214b58c44a39c44988d7aa1859e5/route.jpg)
+
+Route lines draw between different LatLng in AR World
