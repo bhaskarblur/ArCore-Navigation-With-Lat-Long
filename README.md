@@ -10,7 +10,7 @@ to our AnchorNode in AR World.
 ## Accuracy?
 This solution is pretty accurate as it doesnt rely on any external system and just requires user location & yaw. But, keep in mind that if the location LatLng & yaw of user is incorrect or inaccurate, then this may affect the resulted coordinates.
 
-## Example
+## Examples
 
 ![Anchor placed in AR World using LatLng](https://github.com/bhaskarblur/ARCore-Navigation-Anchors-using-LatLng-in-AR-World---Android/blob/316265830063214b58c44a39c44988d7aa1859e5/poi.jpg)
 
@@ -21,7 +21,9 @@ Anchor placed in AR World using LatLng
 Route lines draw between different LatLng in AR World
 
 ## With this app you will be able to:
-- Get current user location & yaw
-- Convert entered Latitude & Longitude into local coordinates
-- Place anchor & object on LatLng using coordinate converter in AR Scene
-- Draw routes between different LatLng using coordinate converter in AR Scene
+- Get current **user location & yaw**
+- Convert entered **Latitude & Longitude** into local coordinates
+- Place **anchor & object on LatLng** using coordinate converter in AR Scene
+- **Draw routes between different LatLng** using coordinate converter in AR Scene
+
+
