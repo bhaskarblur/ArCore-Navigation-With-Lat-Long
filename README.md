@@ -26,4 +26,13 @@ Route lines draw between different LatLng in AR World
 - Place **anchor & object on LatLng** using coordinate converter in AR Scene
 - **Draw routes between different LatLng** using coordinate converter in AR Scene
 
+## Getting Started
+
+### Setup ARCore & SceneForm dependencies
+### Setup Google Cloud Console Account & enable ArCore in it & make an API
+### Add the required permissions and metadata of ArCore Api in Manifest file
+### Enable ViewBinding in buildfeatures in Build Gradle file
+
+### 
+
 
