@@ -83,6 +83,8 @@ sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
 ```
 
+
+
 Inside OnResume() :
 
 ```
@@ -98,6 +100,8 @@ Inside OnResume() :
         }
         
 ```        
+
+
 
 Now, implement the SensorEventListener in activity class and add these functions
 
@@ -141,3 +145,18 @@ Now, implement the SensorEventListener in activity class and add these functions
 ```
 
 
+## Convert the Latitude & Longitude in Local Coordinates
+This code will help you to convert your desired LatLng into local coordinates to place model on it. It uses
+CoordinatesHelper class to do conversion.
+
+```
+     // instantiating our cordinates helper class with our current coordinate
+        CoordinatesHelper cartesianHelper=new CoordinatesHelper(currentLatLng);
+        cartesianHelper.setCenter_(currentLatLng);
+
+        // converting the LatLng coordinates of poi to local coordinates to get place in AR
+        Coordinate coordinate1 =
+                        cartesianHelper.GetLocalCoordinates(new LatLng(
+                               "Latitude", "Longitude"), yaw);
+                               
+```
