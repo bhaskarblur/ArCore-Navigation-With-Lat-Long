@@ -147,7 +147,7 @@ Now, implement the SensorEventListener in activity class and add these functions
 
 ## Convert the Latitude & Longitude in Local Coordinates
 This code will help you to convert your desired LatLng into local coordinates to place model on it. It uses
-CoordinatesHelper class to do conversion.
+CoordinatesHelper class to do conversion. **Make sure you call this code inside OnTapPlane Listener.**
 
 ```
      // instantiating our cordinates helper class with our current coordinate
@@ -160,3 +160,92 @@ CoordinatesHelper class to do conversion.
                                "Latitude", "Longitude"), yaw);
                                
 ```
+
+
+## Place POI on the converted Local Coordinate
+Below, we used onTapPlane to get information about our environment and set a node inside it. You can instantly place object
+without tapping the plane by using OnUpdateListener of ArFragment ArFrame. **It is suggested to place first anchor on foot of user
+or beneath the camera for best results**
+
+```
+  arFragment.setOnTapArPlaneListener(new BaseArFragment.OnTapArPlaneListener() {
+            @Override
+            public void onTapPlane(HitResult hitResult, Plane plane, MotionEvent motionEvent) {
+                if(!poiPlaced) {
+                    // calling it here as we want to calculate coordinates only when tapped                  
+                    convertCoordinates("Latitude", "Longitude");
+                    
+                    Anchor anchor= hitResult.createAnchor();
+                    AnchorNode anchorNode = new AnchorNode(anchor);
+
+                    // passing the coordinates of target from the list of coordinates,
+                    // in your case you can set your own lat long and convert it into local coordinates,
+                    // passing the anchorNode as the reference node to place other anchors in world.
+                    // make sure you point the ar camera on your foot and then tap on ar shadow to place anchor
+                    
+                    PlacePOIinRealWorld(coordinate1, anchorNode);
+
+                }
+            }
+        });
+        
+        
+ ```  
+ 
+ ```  
+   private void PlacePOIinRealWorld(CartesianCoordinate coordinate, AnchorNode reference) {
+
+        // prepare renderable model for POI
+        ModelRenderable.builder().
+                setSource(
+                        ARActivity.this,
+                        RenderableSource
+                                .builder()
+                                .setSource(ARActivity.this, Uri.parse(
+                                                poi_uri)
+                                        , RenderableSource.SourceType.GLTF2)
+                                .setScale(.3f)
+                                .build())
+                .setRegistryId(poi_uri)
+                .build()
+                .thenAccept(modelRenderable -> addPOIinScene( modelRenderable,reference, coordinate ))
+                .exceptionally(throwable -> {
+                    Toast.makeText(ARActivity.this, "error:"+throwable.getCause(), Toast.LENGTH_SHORT).show();
+                    return null;
+                });
+
+        poiPlaced=true;
+        binding.instrText.setVisibility(View.GONE);
+    }
+
+    private void addPOIinScene(ModelRenderable modelRenderable, AnchorNode reference, CartesianCoordinate targetCoordinate_) {
+
+        AnchorNode anchorNode1=new AnchorNode(null);
+        anchorNode1.setRenderable(modelRenderable);
+        arFragment.getArSceneView().getScene().addChild(anchorNode1);
+
+        CartesianCoordinate Singlecoordinate= targetCoordinate_;
+
+        //set the position of your POI model based on the coordinates calculated by
+        // the coordinate convertor
+        anchorNode1.setLocalPosition(new Vector3(
+                (float) (reference.getLocalPosition().x+ Singlecoordinate.getX()),
+                reference.getLocalPosition().y+.15f,
+                (float) (reference.getLocalPosition().z-Singlecoordinate.getY())
+        ));
+
+        //set rotation if needed ( optional)
+        anchorNode1.setLocalRotation(Quaternion.axisAngle(new Vector3(0f, -1f, 0f), 30f));
+
+        Toast.makeText(ARActivity.this, "POI added in scene.", Toast.LENGTH_SHORT).show();
+
+        poiPlaced= true;
+
+        //        Toast.makeText(this, String.valueOf(Singlecoordinate.getX())+","+
+//                String.valueOf(Singlecoordinate.getY()), Toast.LENGTH_SHORT).show();
+    }
+
+```  
+ 
+       
+
