@@ -1,6 +1,8 @@
 # ARCore Navigation Anchors using LatLng in AR World - Android
 This repository developed in Native Android - Java demonstrates how to place objects &amp; draw routes between them in ARCore scene using Latitude &amp; Longitude. The code doesn't require any use of Google Geospatial API or any such library.
 
+Developed by: Bhaskar Kaura (https://www.linkedin.com/in/bhaskar-kaura-300b09272/)
+
 ## How does this work?
 This app uses ARCore with Sceneform to support AR & render objects in AR World. The current location of user is continuously calculated
 and also the yaw(azimuth) aka the rotation of the device around it's -z axis which is respective to north. Now, we have our current
@@ -28,7 +30,20 @@ Route lines draw between different LatLng in AR World
 
 ## Getting Started
 
-### Setup ARCore & SceneForm dependencies
+### Setup all the required dependencies
+```
+implementation ('es.situm:situm-sdk:2.85.3@aar') {
+        transitive = true
+    }
+implementation 'com.google.android.gms:play-services-maps:18.1.0'
+implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
+implementation 'com.github.appoly:ARCore-Location:1.2'
+implementation 'com.google.android.gms:play-services-location:21.0.1'
+implementation 'de.javagl:obj:0.2.1'
+implementation 'com.google.ar:core:1.31.0'
+implementation 'com.google.ar.sceneform:core:1.17.1'
+``` 
+
 ### Setup Google Cloud Console Account & enable ArCore in it & make an API Key
 ### Add the required permissions and metadata of ArCore Api in Manifest file
 ### Enable ViewBinding in buildfeatures in Build Gradle file
@@ -192,6 +207,8 @@ or beneath the camera for best results**
         
  ```  
  
+ 
+ 
  ```  
    private void PlacePOIinRealWorld(CartesianCoordinate coordinate, AnchorNode reference) {
 
@@ -234,18 +251,121 @@ or beneath the camera for best results**
                 (float) (reference.getLocalPosition().z-Singlecoordinate.getY())
         ));
 
-        //set rotation if needed ( optional)
+        //set rotation if needed (optional)
         anchorNode1.setLocalRotation(Quaternion.axisAngle(new Vector3(0f, -1f, 0f), 30f));
 
         Toast.makeText(ARActivity.this, "POI added in scene.", Toast.LENGTH_SHORT).show();
 
         poiPlaced= true;
-
-        //        Toast.makeText(this, String.valueOf(Singlecoordinate.getX())+","+
-//                String.valueOf(Singlecoordinate.getY()), Toast.LENGTH_SHORT).show();
+        
     }
 
 ```  
  
-       
+ 
+## Draw routes between different LatLng with the converted Local Coordinate
+Below, we used onTapPlane to get information about our environment and set a node inside it. You can instantly place object
+without tapping the plane by using OnUpdateListener of ArFragment ArFrame. **It is suggested to place first anchor on foot of user
+or beneath the camera for best results**
 
+``` 
+arFragment.setOnTapArPlaneListener(new BaseArFragment.OnTapArPlaneListener() {
+            @Override
+            public void onTapPlane(HitResult hitResult, Plane plane, MotionEvent motionEvent) {
+                if(!routePlaced) {
+                    // calling it here as we want to calculate coordinates only when tapped
+                    addDatainPOIList();
+                    Anchor anchor= hitResult.createAnchor();
+                    AnchorNode anchorNode = new AnchorNode(anchor);
+
+                    DrawLinesBetweenPOIs(anchorNode, false);
+
+                    for(int i=0; i<coordinateList.size(); i++) {
+                        AnchorNode repNode= new AnchorNode(null);
+                        repNode.setLocalPosition(
+                                new Vector3((float) (anchorNode.getLocalPosition()
+                                        .x + coordinateList.get(i).getX()), anchorNode.getLocalPosition()
+                                        .y, (float) (anchorNode.getLocalPosition()
+                                        .z - coordinateList.get(i).getY())));
+
+                        DrawLinesBetweenPOIs(repNode, true);
+                    }
+                    routePlaced=true;
+                    binding.instrText.setVisibility(View.GONE);
+                }
+            }
+        });
+        
+``` 
+
+``` 
+private AnchorNode lastAnchorNode = new AnchorNode();
+
+private void DrawLinesBetweenPOIs(AnchorNode anchorNode, boolean place_) {
+        if (lastAnchorNode != null) {
+            anchorNode.setParent(arFragment.getArSceneView().getScene());
+            Vector3 point1, point2;
+            point1 = lastAnchorNode.getWorldPosition();
+            point2 = anchorNode.getWorldPosition();
+
+            if(place_) {
+                final Vector3 difference = Vector3.subtract(point1, point2);
+                final Vector3 directionFromTopToBottom = difference.normalized();
+                final Quaternion rotationFromAToB =
+                        Quaternion.lookRotation(directionFromTopToBottom, Vector3.up());
+                Texture.Sampler sampler = Texture.Sampler.builder()
+                        .setMinFilter(Texture.Sampler.MinFilter.LINEAR_MIPMAP_LINEAR)
+                        .setMagFilter(Texture.Sampler.MagFilter.LINEAR)
+                        .build();
+
+                Texture.builder()
+                        .setSource(() -> getApplicationContext().getAssets().open("arrow_texture.png"))
+                        .setSampler(sampler)
+                        .build().thenAccept(texture -> {
+                            MaterialFactory.makeTransparentWithTexture(getApplicationContext(), texture) //new Color(0, 255, 244))
+                                    .thenAccept(
+                                            material -> {
+
+                                                ModelRenderable model = ShapeFactory.makeCube(
+                                                        new Vector3(.3f, .006f, difference.length()),
+                                                        Vector3.zero(), material);
+
+
+                                                AnchorNode node = new AnchorNode();
+                                                node.setParent(anchorNode);
+                                                node.setRenderable(model);
+                                                node.setWorldPosition(Vector3.add(point1, point2).scaled(.5f));
+                                                node.setWorldRotation(rotationFromAToB);
+
+                                            }
+                                    ).exceptionally(new Function<Throwable, Void>() {
+                                        @Override
+                                        public Void apply(Throwable throwable) {
+                                            Toast.makeText(ARActivity.this, "Error: "+
+                                                    throwable.getMessage().toString(), Toast.LENGTH_SHORT).show();
+                                            return null;
+                                        }
+                                    });
+                        });
+
+            }
+
+            Log.d("position:",anchorNode.getLocalPosition().toString());
+            lastAnchorNode = anchorNode;
+
+        }
+    }
+    
+``` 
+
+## All done, you're ready to go!
+Thank you for viewing my repository, i hope it helped you achieve your desired results
+
+## Let's Connect
+You can find me here:
+Linkedin: [Link](https://www.linkedin.com/in/bhaskar-kaura-300b09272/)
+Instagram: [Link](https://www.instagram.com/bhaskar_blur/)
+Twitter: [Link](https://twitter.com/Bhaskar_blur)
+
+## Support information
+For any question or bug report, please send an email to [bhaskar7005blur@gmail.com](mailto:bhaskar7005blur@gmail.com)
