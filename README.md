@@ -29,10 +29,39 @@ Route lines draw between different LatLng in AR World
 ## Getting Started
 
 ### Setup ARCore & SceneForm dependencies
-### Setup Google Cloud Console Account & enable ArCore in it & make an API
+### Setup Google Cloud Console Account & enable ArCore in it & make an API Key
 ### Add the required permissions and metadata of ArCore Api in Manifest file
 ### Enable ViewBinding in buildfeatures in Build Gradle file
 
-### 
+### Get user location
+Using the code below, retrieve & update the current user location
+
+```
+ private LatLng currentLatLng =
+            new LatLng(0, 0);
+            
+private LocationManager locationManager;
+
+locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
+  locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0L, (float) 0, new LocationListener() {
+            @Override
+            public void onLocationChanged(@NonNull Location location) {
+
+                // this location LatLng can be highly inaccurate if being used in indoor location
+                // or places where it's hard to navigate, it is suggested to use special
+                // navigation systems like indoor navigation system for accurate results.
+
+                // this inaccurate latlng can affect the coordinates of poi anchors, for testing
+                // try with a fixed current latlng on which you are currently placed.
+
+                currentLatLng = new LatLng(location.getLatitude(), location.getLatitude());
+                binding.instrText.setText("Place your camera slightly next to your foot and tap on the floor shadow to begin!");
+
+
+            }
+        });
+```
+
 
 
