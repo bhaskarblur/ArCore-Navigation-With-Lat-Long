@@ -45,8 +45,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Function;
 
+import javax.inject.Inject;
+
+import dagger.hilt.android.AndroidEntryPoint;
 import es.situm.sdk.model.location.CartesianCoordinate;
 
+@AndroidEntryPoint
 public class ARActivity extends AppCompatActivity implements SensorEventListener {
 
     private String arrow_uri = "https://raw.githubusercontent.com/2wizstudio/indoorNav/main/arrow.gltf";
@@ -55,8 +59,7 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
     private boolean poiPlaced = false;
 
     private LatLng currentLatLng =
-            new LatLng(30.929377, 75.807884);
-
+            new LatLng(30.9294242, 75.8078367);
 
     private List<CartesianCoordinate> coordinateList;
     private float Rot[] = null; //for gravity rotational data
@@ -67,12 +70,14 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
     private float yaw;
     private float pitch;
     private float roll;
+    @Inject
     private SensorManager sensorManager;
     private Sensor sensor;
     ActivityAractivityBinding binding;
     private AnchorNode lastAnchorNode = new AnchorNode();
     private com.google.ar.sceneform.ux.ArFragment arFragment;
-    private  LocationManager locationManager;
+    @Inject
+    LocationManager locationManager;
 
     @Override
 
@@ -83,8 +88,8 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         this.getSupportActionBar().hide();
 
         //sensor manager & sensor required to calculate yaw
-        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
+//        sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
+//        sensor = sensorManager.getDefaultSensor(Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR);
 
         // check if the AR is supported & latest installed etc
         maybeEnableArButton();
@@ -109,11 +114,6 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
             return;
         }
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0L, (float) 0, new LocationListener() {
@@ -201,7 +201,7 @@ public class ARActivity extends AppCompatActivity implements SensorEventListener
         // converting the LatLng coordinates of poi to local coordinates to get place in AR
         Coordinate Convcoordinate_ =
                         cartesianHelper.GetLocalCoordinates(new LatLng(
-                                30.929455, 75.807879), yaw);
+                                30.929518, 75.807809), yaw);
 
                 CartesianCoordinate Singlecoordinate=
                         new CartesianCoordinate(Convcoordinate_.x, Convcoordinate_.y);
