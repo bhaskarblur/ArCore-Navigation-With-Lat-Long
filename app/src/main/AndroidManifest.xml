@@ -15,6 +15,7 @@
         android:required="true" />
     <application
         android:allowBackup="true"
+        android:name=".di.myApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/situm_position_icon_arrow"
@@ -31,7 +32,7 @@
 
         <meta-data
             android:name="com.google.android.ar.API_KEY"
-            android:value="YOUR_API_KEY" />
+            android:value="AIzaSyCfmwE5xNAlTWcrLVQFA8Yq6via4l9eVvU" />
         <meta-data
             android:name="com.google.ar.core"
             android:value="required"
