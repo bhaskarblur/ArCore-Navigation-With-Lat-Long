@@ -33,15 +33,15 @@ import es.situm.sdk.model.cartography.Point;
 
 public class commons {
 
-    private String API_KEY="ef34e0a493c5eb6345a3513a7cb03cf6fb418ee6d10d865f3f7e3b7c050e3b57";
-    private String API_EMAIL="nick@zeniamobile.com";
+    private String API_KEY="";
+    private String API_EMAIL="";
 
     public String getGoogleMapApi() {
         return googleMapApi;
     }
 
     //this is my own, need to replace.
-    private String googleMapApi="AIzaSyBS4QH7KbXakdfJP8v1qErqT0iF9GRJbII";
+    private String googleMapApi="";
 
     public String getAPI_KEY() {
         return API_KEY;
