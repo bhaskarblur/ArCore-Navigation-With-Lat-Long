@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'com.google.dagger.hilt.android'
+}
+
+android {
+    namespace 'com.bhaskarblur.arcorenavigation'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.bhaskarblur.arcorenavigation"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        buildFeatures {
+            viewBinding true
+            dataBinding true
+        }
+
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "18"
+    }
+
+}
+
+dependencies {
+    implementation ('es.situm:situm-sdk:2.85.3@aar') {
+        transitive = true
+    }
+    implementation 'com.google.android.gms:play-services-maps:18.1.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.17.1'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'// compulsory
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'com.github.MikeOrtiz:TouchImageView:1.4.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' //for retrofit conversion
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'jp.wasabeef:picasso-transformations:2.4.0'
+    implementation "androidx.viewpager2:viewpager2:1.0.0"
+    implementation("com.google.dagger:hilt-android:2.46")
+    kapt("com.google.dagger:hilt-android-compiler:2.46")
+    // Retrofit & OkHttp
+    implementation "com.squareup.okhttp3:okhttp:4.10.0"
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
+    implementation 'de.javagl:obj:0.2.1'
+    implementation 'com.google.ar.sceneform:core:1.17.1'
+    implementation 'com.google.ar.sceneform:assets:1.17.1'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
+kapt {
+    correctErrorTypes true
+}
