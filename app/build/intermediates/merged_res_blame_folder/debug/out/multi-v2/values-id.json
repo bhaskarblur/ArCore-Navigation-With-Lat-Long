@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bhaskarblur.arcorenavigation.app-mergeDebugResources-49:/values-id/values-id.xml",
+            "map": [
+                {
+                    "source": "/Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/res/values-id/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,236,288,401,515",
+                        "endColumns": "45,51,112,113,84",
+                        "endOffsets": "235,287,400,514,599"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,105,161,278,396",
+                        "endColumns": "49,55,116,117,88",
+                        "endOffsets": "100,156,273,391,480"
+                    }
+                }
+            ]
+        }
+    ]
+}

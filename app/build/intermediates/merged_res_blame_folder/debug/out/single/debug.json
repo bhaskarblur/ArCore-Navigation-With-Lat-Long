@@ -1,0 +1,194 @@
+[
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_down_50.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_down_50.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_up.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_up.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_fade_fast_2.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/fade_fast_2.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/font_montbold.otf.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/font/montbold.otf"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/layout_activity_aractivity.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/layout/activity_aractivity.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/drawable_img.png.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/drawable/img.png"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_left.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_fade.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/fade.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_empty.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/empty.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_upalt.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_upalt.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_up_forlogin.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_up_forlogin.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_right.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/layout_activity_splash_screen.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_fade_fast.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/fade_fast.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_downalt.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_downalt.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/font_montregular.otf.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/font/montregular.otf"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_right.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_downalt.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_downalt.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_fade_anim.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/fade_anim.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_down.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_down.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/drawable_situm_position_icon_arrow.png.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/drawable/situm_position_icon_arrow.png"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_left_to_right.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/left_to_right.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_right_to_left.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/right_to_left.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/font_montthin.otf.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/font/montthin.otf"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/xml_backup_rules.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_up.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_up.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_in_up_50.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_in_up_50.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_fade_2.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/fade_2.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_upaltfast.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_upaltfast.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/font_gavency.otf.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/font/gavency.otf"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_down.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_down.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/font_montsemibold.otf.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/font/montsemibold.otf"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-merged_res-51:/anim_slide_out_left.xml.flat",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/anim/slide_out_left.xml"
+    }
+]

@@ -1,0 +1,778 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+MERGED from [androidx.databinding:databinding-adapters:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/b3aeca229071416b8774a825d5a750dd/transformed/databinding-adapters-8.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-ktx:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f857ac5d32760473bfadfad957f61911/transformed/jetified-databinding-ktx-8.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:databinding-runtime:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/2c3ca8bcbd1c49e4b93821ead3c5768f/transformed/databinding-runtime-8.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8525f752b02cdd1d3854d11d8a3292df/transformed/jetified-viewbinding-8.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:2:1-58:12
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:2:1-61:12
+MERGED from [com.google.android.material:material:1.10.0] /Users/soundwave2847/.gradle/caches/transforms-3/775908eb48f5518fc78695d1cdd4c69c/transformed/material-1.10.0/AndroidManifest.xml:17:1-24:12
+MERGED from [jp.wasabeef:picasso-transformations:2.4.0] /Users/soundwave2847/.gradle/caches/transforms-3/87a4bc6d20a25bc06b6a49a9eb910866/transformed/jetified-picasso-transformations-2.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.dagger:hilt-android:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/ffb55169be195072c3983f51e6a133cc/transformed/jetified-hilt-android-2.46/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1ad7b8901ba8c9313538768401079764/transformed/jetified-sceneform-ux-1.17.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/15bca4e88d0109351e48a8aeae9bc981/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8be04edd750aee6d39b9329157f9b1c1/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/d4b853878de4e8476c5f3f3f504787de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/a9d059ce57a2ac08cd586b651ca364ca/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/24252043c770c1d0b61c4ed8fa2aaef9/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/c3d7a6b66c14c0ca8b3301fcdf4941c2/transformed/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/752910fb0d9febf8195dcff7a0fe319a/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/e17c4201713830f748867081e08db9d7/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/soundwave2847/.gradle/caches/transforms-3/4f541a74272bfbd1a1976bdc6d3f313a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/soundwave2847/.gradle/caches/transforms-3/e1ff3eb888fa99d62fe394b0919bedc3/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/soundwave2847/.gradle/caches/transforms-3/b0fe7f858caa35f10a8fe1097a0398dd/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/9ee53e0455b14722908b285f8cd28d36/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/3d35fc2f0faaecf8b0e020352348a2c4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0d2bf68bd2352505fd93cc911c435750/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/829720c61aecc924901c6f24423b85cf/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a5955e0fe4ab0d02f70e839ffcac60f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d7885436ce6a557fb079fdd2abcfb413/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8138ded9e7245a39f10caff60dcb1a46/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/63bf41ce01717cf8f304e559b7150001/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/51617b0fbf463f02ab7fca37e7c0373b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/58a70d3fbd809c68087003cc34756ef4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05509ce62afb9b86a0b0c9a2965aad23/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/8f6ba3c4e1336ae50234784bc1b12412/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/af0cd15153756be888a4b18618fba026/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a022b4ae979ba8b75c6bf10b50fb28f9/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/05fb8c643602a221a1b417c3f66aa97e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/1be9cf30a97a0f7b2bf2b25f838dc96c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f0465f77bf4f42324577f5b83bae6de5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/69ca3973bfb87eec93e83d980f0300d8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/45e94c178e0fd5cce391e214fb9ee93f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/fa69a67c65e76bb1fe26b4ed4ec0a150/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/4f7c54d6691e6457584a0ef4229fcca6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/bc3da46b42e0ba3e2a0c46fb43081b8d/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/480c1fc6a926be364a20d6b00f5773eb/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/5ecfc9bc46650f8b7466a21d3e5be02b/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/61cec310ec61362e258d33a3a16644d2/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/ba93976dbbfdfd859dd909d2ad99e583/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/97b957374995a5144899d214c3f3d3ea/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/fc32af324fd1dcaf7be86c9c01446045/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/63c97bcbdef349c0d9e331f31699c1ff/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/2e8bd8c7b527e29ccb164e9578b28e64/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/d1e53404a67eb5b8aa0288fd72a570f4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] /Users/soundwave2847/.gradle/caches/transforms-3/52f9be9c44dde9bb5b4955c7e8a5cdcd/transformed/jetified-TouchImageView-1.4.1/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/8de859a52a71ccff22edc6382d9837ab/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/4761265406e3f7fc777d304673396647/transformed/jetified-core-1.17.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:assets:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/e8ba0fd59dda7cd52b53b74b5874bfe2/transformed/jetified-assets-1.17.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/dbff8f53f101826b1bd47aef54fb28f9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a1fa2631dc90b27be82f7b82f4cf5b0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dbb39c79d146fdbe8a9f160423fe3a1c/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/92b28ed78e871505486f96b93ad2737a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b0604180870cfa7296285d204c292524/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dc0e3ac2f4e342829e5561c255431af2/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/45cf4fc1bcc86759f34e370da282c9ff/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/ee15e58443f2183ea28e81738d9fee35/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/974af4205f730f322c278d202f392600/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/863fb28d9b00f67332ecd1a9a6b6888c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/cd2f783b6994b06ae05cf38d33fde4f2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05e615758a06a83e4c300a8e7d69dab6/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/74c368924181af3603fd86039b7ec884/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:rendering:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/016b60c610e842356d93498f472f9af2/transformed/jetified-rendering-1.17.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:17:1-49:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/72819cb282fc1265f91d597798419958/transformed/jetified-dagger-lint-aar-2.46/AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1926576bea4cf8040b9832b4db6c87fd/transformed/jetified-sceneform-base-1.17.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1d8795307e68e117aa1c2895c3b4ed73/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+	package
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:1-61:12
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera.ar
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:5:5-63
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:5:19-60
+uses-permission#android.permission.CAMERA
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:6:5-64
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:9:5-10:68
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:16:5-81
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:16:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:17:5-81
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:10:9-65
+uses-permission#android.permission.BLUETOOTH_CONNECT
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:11:5-76
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:19:5-76
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:19:5-76
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:11:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:22:5-67
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:12:22-64
+uses-feature#0x00030000
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:13:5-15:35
+	android:glEsVersion
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:14:9-41
+	android:required
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:15:9-32
+uses-feature#android.hardware.camera
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:17:9-47
+application
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:20:5-59:19
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:31:5-56:19
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:31:5-56:19
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:19:5-59:19
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:19:5-59:19
+MERGED from [com.google.android.material:material:1.10.0] /Users/soundwave2847/.gradle/caches/transforms-3/775908eb48f5518fc78695d1cdd4c69c/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.10.0] /Users/soundwave2847/.gradle/caches/transforms-3/775908eb48f5518fc78695d1cdd4c69c/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:36:5-42:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/d4b853878de4e8476c5f3f3f504787de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/d4b853878de4e8476c5f3f3f504787de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/e17c4201713830f748867081e08db9d7/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/e17c4201713830f748867081e08db9d7/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/soundwave2847/.gradle/caches/transforms-3/4f541a74272bfbd1a1976bdc6d3f313a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/soundwave2847/.gradle/caches/transforms-3/4f541a74272bfbd1a1976bdc6d3f313a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] /Users/soundwave2847/.gradle/caches/transforms-3/52f9be9c44dde9bb5b4955c7e8a5cdcd/transformed/jetified-TouchImageView-1.4.1/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] /Users/soundwave2847/.gradle/caches/transforms-3/52f9be9c44dde9bb5b4955c7e8a5cdcd/transformed/jetified-TouchImageView-1.4.1/AndroidManifest.xml:11:5-14:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/dbff8f53f101826b1bd47aef54fb28f9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/dbff8f53f101826b1bd47aef54fb28f9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:33:5-47:19
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:33:5-47:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:26:9-41
+	android:fullBackupContent
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:24:9-54
+	android:roundIcon
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:27:9-54
+	tools:targetApi
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:31:9-29
+	android:icon
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:25:9-59
+	android:allowBackup
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:29:9-65
+	android:dataExtractionRules
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:23:9-65
+	android:usesCleartextTraffic
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:22:9-41
+activity#com.bhaskarblur.arcorenavigation.ARScreen
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:32:9-35:40
+	android:screenOrientation
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:34:13-49
+	android:exported
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:33:13-37
+meta-data#com.google.android.ar.API_KEY
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:37:9-39:71
+	android:value
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:39:13-68
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:38:13-57
+meta-data#com.google.ar.core
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:40:9-43:45
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:32:9-34:40
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:32:9-34:40
+	tools:replace
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:43:13-42
+	android:value
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:42:13-37
+		REJECTED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:41:13-46
+activity#com.bhaskarblur.arcorenavigation.splashScreen
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:49:9-58:20
+	android:screenOrientation
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:52:13-49
+	android:exported
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:51:13-36
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:50:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:56:27-74
+uses-sdk
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/b3aeca229071416b8774a825d5a750dd/transformed/databinding-adapters-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-adapters:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/b3aeca229071416b8774a825d5a750dd/transformed/databinding-adapters-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f857ac5d32760473bfadfad957f61911/transformed/jetified-databinding-ktx-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-ktx:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f857ac5d32760473bfadfad957f61911/transformed/jetified-databinding-ktx-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/2c3ca8bcbd1c49e4b93821ead3c5768f/transformed/databinding-runtime-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:databinding-runtime:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/2c3ca8bcbd1c49e4b93821ead3c5768f/transformed/databinding-runtime-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8525f752b02cdd1d3854d11d8a3292df/transformed/jetified-viewbinding-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8525f752b02cdd1d3854d11d8a3292df/transformed/jetified-viewbinding-8.0.0/AndroidManifest.xml:5:5-44
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:6:5-8:41
+MERGED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:6:5-8:41
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:6:5-8:41
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.10.0] /Users/soundwave2847/.gradle/caches/transforms-3/775908eb48f5518fc78695d1cdd4c69c/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.10.0] /Users/soundwave2847/.gradle/caches/transforms-3/775908eb48f5518fc78695d1cdd4c69c/transformed/material-1.10.0/AndroidManifest.xml:20:5-44
+MERGED from [jp.wasabeef:picasso-transformations:2.4.0] /Users/soundwave2847/.gradle/caches/transforms-3/87a4bc6d20a25bc06b6a49a9eb910866/transformed/jetified-picasso-transformations-2.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [jp.wasabeef:picasso-transformations:2.4.0] /Users/soundwave2847/.gradle/caches/transforms-3/87a4bc6d20a25bc06b6a49a9eb910866/transformed/jetified-picasso-transformations-2.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.dagger:hilt-android:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/ffb55169be195072c3983f51e6a133cc/transformed/jetified-hilt-android-2.46/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/ffb55169be195072c3983f51e6a133cc/transformed/jetified-hilt-android-2.46/AndroidManifest.xml:18:3-42
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1ad7b8901ba8c9313538768401079764/transformed/jetified-sceneform-ux-1.17.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1ad7b8901ba8c9313538768401079764/transformed/jetified-sceneform-ux-1.17.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/15bca4e88d0109351e48a8aeae9bc981/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/15bca4e88d0109351e48a8aeae9bc981/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8be04edd750aee6d39b9329157f9b1c1/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8be04edd750aee6d39b9329157f9b1c1/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/d4b853878de4e8476c5f3f3f504787de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/soundwave2847/.gradle/caches/transforms-3/d4b853878de4e8476c5f3f3f504787de/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/a9d059ce57a2ac08cd586b651ca364ca/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/a9d059ce57a2ac08cd586b651ca364ca/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/24252043c770c1d0b61c4ed8fa2aaef9/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/24252043c770c1d0b61c4ed8fa2aaef9/transformed/jetified-preference-ktx-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/c3d7a6b66c14c0ca8b3301fcdf4941c2/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/c3d7a6b66c14c0ca8b3301fcdf4941c2/transformed/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/752910fb0d9febf8195dcff7a0fe319a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/752910fb0d9febf8195dcff7a0fe319a/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/e17c4201713830f748867081e08db9d7/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/e17c4201713830f748867081e08db9d7/transformed/jetified-play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/soundwave2847/.gradle/caches/transforms-3/4f541a74272bfbd1a1976bdc6d3f313a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/soundwave2847/.gradle/caches/transforms-3/4f541a74272bfbd1a1976bdc6d3f313a/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/soundwave2847/.gradle/caches/transforms-3/e1ff3eb888fa99d62fe394b0919bedc3/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/soundwave2847/.gradle/caches/transforms-3/e1ff3eb888fa99d62fe394b0919bedc3/transformed/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/soundwave2847/.gradle/caches/transforms-3/b0fe7f858caa35f10a8fe1097a0398dd/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/soundwave2847/.gradle/caches/transforms-3/b0fe7f858caa35f10a8fe1097a0398dd/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/9ee53e0455b14722908b285f8cd28d36/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/9ee53e0455b14722908b285f8cd28d36/transformed/jetified-activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/3d35fc2f0faaecf8b0e020352348a2c4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/soundwave2847/.gradle/caches/transforms-3/3d35fc2f0faaecf8b0e020352348a2c4/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0d2bf68bd2352505fd93cc911c435750/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0d2bf68bd2352505fd93cc911c435750/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/829720c61aecc924901c6f24423b85cf/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/829720c61aecc924901c6f24423b85cf/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a5955e0fe4ab0d02f70e839ffcac60f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a5955e0fe4ab0d02f70e839ffcac60f0/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d7885436ce6a557fb079fdd2abcfb413/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/d7885436ce6a557fb079fdd2abcfb413/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8138ded9e7245a39f10caff60dcb1a46/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/8138ded9e7245a39f10caff60dcb1a46/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/63bf41ce01717cf8f304e559b7150001/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/63bf41ce01717cf8f304e559b7150001/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/51617b0fbf463f02ab7fca37e7c0373b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/51617b0fbf463f02ab7fca37e7c0373b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/58a70d3fbd809c68087003cc34756ef4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/58a70d3fbd809c68087003cc34756ef4/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05509ce62afb9b86a0b0c9a2965aad23/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05509ce62afb9b86a0b0c9a2965aad23/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/8f6ba3c4e1336ae50234784bc1b12412/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/8f6ba3c4e1336ae50234784bc1b12412/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/af0cd15153756be888a4b18618fba026/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/af0cd15153756be888a4b18618fba026/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a022b4ae979ba8b75c6bf10b50fb28f9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a022b4ae979ba8b75c6bf10b50fb28f9/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/05fb8c643602a221a1b417c3f66aa97e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/05fb8c643602a221a1b417c3f66aa97e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/1be9cf30a97a0f7b2bf2b25f838dc96c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/1be9cf30a97a0f7b2bf2b25f838dc96c/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f0465f77bf4f42324577f5b83bae6de5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/f0465f77bf4f42324577f5b83bae6de5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/69ca3973bfb87eec93e83d980f0300d8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/69ca3973bfb87eec93e83d980f0300d8/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/45e94c178e0fd5cce391e214fb9ee93f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/45e94c178e0fd5cce391e214fb9ee93f/transformed/jetified-core-ktx-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/fa69a67c65e76bb1fe26b4ed4ec0a150/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/fa69a67c65e76bb1fe26b4ed4ec0a150/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/4f7c54d6691e6457584a0ef4229fcca6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/4f7c54d6691e6457584a0ef4229fcca6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/bc3da46b42e0ba3e2a0c46fb43081b8d/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/soundwave2847/.gradle/caches/transforms-3/bc3da46b42e0ba3e2a0c46fb43081b8d/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/480c1fc6a926be364a20d6b00f5773eb/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/480c1fc6a926be364a20d6b00f5773eb/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/5ecfc9bc46650f8b7466a21d3e5be02b/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/5ecfc9bc46650f8b7466a21d3e5be02b/transformed/jetified-lifecycle-service-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/61cec310ec61362e258d33a3a16644d2/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/61cec310ec61362e258d33a3a16644d2/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/ba93976dbbfdfd859dd909d2ad99e583/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/ba93976dbbfdfd859dd909d2ad99e583/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/97b957374995a5144899d214c3f3d3ea/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/97b957374995a5144899d214c3f3d3ea/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/fc32af324fd1dcaf7be86c9c01446045/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/fc32af324fd1dcaf7be86c9c01446045/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/63c97bcbdef349c0d9e331f31699c1ff/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/63c97bcbdef349c0d9e331f31699c1ff/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/2e8bd8c7b527e29ccb164e9578b28e64/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/2e8bd8c7b527e29ccb164e9578b28e64/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/d1e53404a67eb5b8aa0288fd72a570f4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/d1e53404a67eb5b8aa0288fd72a570f4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] /Users/soundwave2847/.gradle/caches/transforms-3/52f9be9c44dde9bb5b4955c7e8a5cdcd/transformed/jetified-TouchImageView-1.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.1] /Users/soundwave2847/.gradle/caches/transforms-3/52f9be9c44dde9bb5b4955c7e8a5cdcd/transformed/jetified-TouchImageView-1.4.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/8de859a52a71ccff22edc6382d9837ab/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/soundwave2847/.gradle/caches/transforms-3/8de859a52a71ccff22edc6382d9837ab/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.ar.sceneform:core:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/4761265406e3f7fc777d304673396647/transformed/jetified-core-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/4761265406e3f7fc777d304673396647/transformed/jetified-core-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:assets:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/e8ba0fd59dda7cd52b53b74b5874bfe2/transformed/jetified-assets-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:assets:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/e8ba0fd59dda7cd52b53b74b5874bfe2/transformed/jetified-assets-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/dbff8f53f101826b1bd47aef54fb28f9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/dbff8f53f101826b1bd47aef54fb28f9/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a1fa2631dc90b27be82f7b82f4cf5b0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/a1fa2631dc90b27be82f7b82f4cf5b0a/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dbb39c79d146fdbe8a9f160423fe3a1c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dbb39c79d146fdbe8a9f160423fe3a1c/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/92b28ed78e871505486f96b93ad2737a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/92b28ed78e871505486f96b93ad2737a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b0604180870cfa7296285d204c292524/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/b0604180870cfa7296285d204c292524/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dc0e3ac2f4e342829e5561c255431af2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/dc0e3ac2f4e342829e5561c255431af2/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/45cf4fc1bcc86759f34e370da282c9ff/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/45cf4fc1bcc86759f34e370da282c9ff/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/ee15e58443f2183ea28e81738d9fee35/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/ee15e58443f2183ea28e81738d9fee35/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/974af4205f730f322c278d202f392600/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/974af4205f730f322c278d202f392600/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/863fb28d9b00f67332ecd1a9a6b6888c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/863fb28d9b00f67332ecd1a9a6b6888c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/cd2f783b6994b06ae05cf38d33fde4f2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/soundwave2847/.gradle/caches/transforms-3/cd2f783b6994b06ae05cf38d33fde4f2/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05e615758a06a83e4c300a8e7d69dab6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/05e615758a06a83e4c300a8e7d69dab6/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/74c368924181af3603fd86039b7ec884/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/74c368924181af3603fd86039b7ec884/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/016b60c610e842356d93498f472f9af2/transformed/jetified-rendering-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/016b60c610e842356d93498f472f9af2/transformed/jetified-rendering-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:25:5-27:41
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:25:5-27:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/72819cb282fc1265f91d597798419958/transformed/jetified-dagger-lint-aar-2.46/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.46] /Users/soundwave2847/.gradle/caches/transforms-3/72819cb282fc1265f91d597798419958/transformed/jetified-dagger-lint-aar-2.46/AndroidManifest.xml:18:3-42
+MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1926576bea4cf8040b9832b4db6c87fd/transformed/jetified-sceneform-base-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1926576bea4cf8040b9832b4db6c87fd/transformed/jetified-sceneform-base-1.17.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1d8795307e68e117aa1c2895c3b4ed73/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.17.1] /Users/soundwave2847/.gradle/caches/transforms-3/1d8795307e68e117aa1c2895c3b4ed73/transformed/jetified-filament-android-1.17.1/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		ADDED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml
+uses-permission-sdk-23#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:14:5-88
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:14:29-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:17:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.BLUETOOTH_SCAN
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:20:22-70
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:23:5-74
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:13:5-15:36
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:23:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:24:5-68
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:10:5-12:36
+MERGED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:10:5-12:36
+	android:required
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:12:9-33
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:26:5-77
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:26:22-74
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:27:5-79
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:27:22-76
+uses-permission#android.permission.HIGH_SAMPLING_RATE_SENSORS
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:28:5-85
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:28:22-82
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:29:22-74
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:35:9-38:36
+REJECTED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:36:9-38:41
+	tools:node
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:38:13-33
+	android:value
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:37:13-38
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:36:13-62
+service#es.situm.sdk.v1.SitumService
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:40:9-43:56
+	android:exported
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:42:13-37
+	android:foregroundServiceType
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:43:13-53
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:41:13-56
+service#es.situm.sdk.location.SitumLocationService
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:44:9-47:56
+	android:exported
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:46:13-37
+	android:foregroundServiceType
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:47:13-53
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:45:13-70
+service#es.situm.sdk.calibration.internal.CalibrationService
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:48:9-51:56
+	android:exported
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:50:13-37
+	android:foregroundServiceType
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:51:13-53
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:49:13-80
+activity#es.situm.sdk.internal.RequestWifiScanAlwaysAvailableActivity
+ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:53:9-55:56
+	android:theme
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:55:13-53
+	android:name
+		ADDED from [es.situm:situm-sdk:2.85.3] /Users/soundwave2847/.gradle/caches/transforms-3/00c1d3a5069bcfa3ce3cb236c5040c0d/transformed/jetified-situm-sdk-2.85.3/AndroidManifest.xml:54:13-88
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:16:22-78
+receiver#org.altbeacon.beacon.startup.StartupBroadcastReceiver
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:20:9-28:20
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:21:13-81
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED+action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:24:17-79
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:24:25-76
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:25:17-87
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:25:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:26:17-90
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:26:25-87
+service#org.altbeacon.beacon.service.BeaconService
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:30:9-35:38
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:32:13-35
+	android:label
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:33:13-37
+	android:isolatedProcess
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:31:13-70
+service#org.altbeacon.beacon.BeaconIntentProcessor
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:36:9-39:40
+	android:enabled
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:38:13-35
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:37:13-70
+service#org.altbeacon.beacon.service.ScanJob
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:40:9-50:19
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:41:13-64
+meta-data#immediateScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:44:13-46:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:46:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:45:17-50
+meta-data#periodicScanJobId
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:47:13-49:45
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:49:17-42
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:48:17-49
+service#org.altbeacon.bluetooth.BluetoothTestJob
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:51:9-58:19
+	android:exported
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:53:13-37
+	android:permission
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:52:13-68
+meta-data#jobId
+ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:55:13-57:46
+	android:value
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:57:17-43
+	android:name
+		ADDED from [org.altbeacon:android-beacon-library:2.19] /Users/soundwave2847/.gradle/caches/transforms-3/18c16508ec44b96e2de7ed0e17e7dcf7/transformed/jetified-android-beacon-library-2.19/AndroidManifest.xml:56:17-37
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.8] /Users/soundwave2847/.gradle/caches/transforms-3/f3e2aa1469f80461eccbd62e720776ec/transformed/jetified-picasso-2.8/AndroidManifest.xml:9:13-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+REJECTED from /Users/soundwave2847/StudioProjects/ARCoreNavigationUsingLatLng/Untitled/app/src/main/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:29:5-31:15
+MERGED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:29:5-31:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/27735cc2c84223f94a9ff4822b76ddee/transformed/jetified-play-services-maps-18.1.0/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/0bca5f4619fb694f4d66313f6965911b/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/soundwave2847/.gradle/caches/transforms-3/54e58ffef793884c008e949a8401c938/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/soundwave2847/.gradle/caches/transforms-3/d2e4bb69f8b3ea493636626f4fbb1ac2/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/soundwave2847/.gradle/caches/transforms-3/9b58c64e25c4fc27a6d8908b3d04e1cc/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+permission#com.bhaskarblur.arcorenavigation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+uses-permission#com.bhaskarblur.arcorenavigation.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] /Users/soundwave2847/.gradle/caches/transforms-3/913569e335b72f57785345ca1fdc7271/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/soundwave2847/.gradle/caches/transforms-3/0e26838777cd2ca3164bd4f5a91f7cbd/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/e1bd0967f491f77802063f4866b8d966/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/soundwave2847/.gradle/caches/transforms-3/9efa66030ac9fc04fa84fd0a8fef48b1/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+package#com.google.ar.core
+ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:30:9-54
+	android:name
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:30:18-51
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:40:9-46:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:43:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:45:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:42:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:46:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.30.0] /Users/soundwave2847/.gradle/caches/transforms-3/3df73133d95bfd06fc6ffba058ee7df7/transformed/jetified-core-1.30.0/AndroidManifest.xml:41:13-62

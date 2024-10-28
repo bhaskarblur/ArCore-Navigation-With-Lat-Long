@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-mergeDebugResources-50:/layout/activity_aractivity.xml",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/layout/activity_aractivity.xml"
+    },
+    {
+        "merged": "com.bhaskarblur.arcorenavigation.app-mergeDebugResources-50:/layout/activity_splash_screen.xml",
+        "source": "com.bhaskarblur.arcorenavigation.app-main-53:/layout/activity_splash_screen.xml"
+    }
+]
